@@ -18,5 +18,7 @@ export class PortfolioComponent implements OnInit {
       this.getAllData = data.results
     })
   }
-
+  reload() {
+    window.location.reload();
+  }
 }
